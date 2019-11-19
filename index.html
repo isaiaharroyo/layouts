@@ -36,7 +36,10 @@
         <p><b>Chapter 13 outlines several layouts for d3. Read all of them and derive a general outline of what they have in common. You are looking for a common algorithmic way to think about how to use layouts.</b></p>
         
         <p>Contrary to what the name suggests, layouts have no direct visual output, but are able to transform data into new data that is more convenient. In Chapter 13, the three layouts that were discussed were stack, pie, and force layout.</p>
-        <p></p>
+        
+        <p>The first step in a common algorithm is to change the data so that it can be used d3.___() in order to transform the dataset. What goes in the space is dependent on what layout is being used. For example, if the pie layout was being used, then it would read d3.pie().</p>
+        
+        <p>Another step in the algorithm is that in order to create the visual elements, we have to bind the new dataset to the svg element where our graphs will be found. Another common part for the algorithm that is found in all layouts is to add specifics, this includes the lines, rectangles, and circles for the graph to display the data.</p>
         
     </body>
 </html>
